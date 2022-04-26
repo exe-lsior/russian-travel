@@ -1,15 +1,15 @@
 .cover__overlay {
     width: 1184px;
     height: 740px;
-    background-size: 100%;
+    background-size: cover;
     background-image: url(../../../images/cover-trains.jpg);
     alt: "поезда";
-    opacity: 80%;
-    position: absolute;
-}
-
-.cover__overlay:hover {
-    opacity: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
