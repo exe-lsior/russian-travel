@@ -18,9 +18,11 @@
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .header__link {
-        width: 142px;
         margin-top: 16px;
         font-size: 18px;
         line-height: 20px;
+    }
+    .header__link:first-of-type {
+        align-self: start;
     }
 }
