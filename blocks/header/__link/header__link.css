@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+.header__link:hover {
+    opacity: 30%;
+}
+
 .header__link:last-of-type {
     margin-right: 0px;
 }

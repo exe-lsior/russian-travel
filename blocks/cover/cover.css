@@ -23,5 +23,6 @@
     .cover {
         width: 320px;
         min-height: 200px;
+        margin-bottom: 64px;
     }
 }
