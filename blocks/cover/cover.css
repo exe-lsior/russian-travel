@@ -9,6 +9,7 @@
     .cover {
         width: 1024px;
         min-height: 640px;
+        margin-bottom: 92px;
     }
 }
 
@@ -16,6 +17,7 @@
     .cover {
         width: 100vw;
         min-height: 480px;
+        margin-bottom: 88px;
     }
 }
 
